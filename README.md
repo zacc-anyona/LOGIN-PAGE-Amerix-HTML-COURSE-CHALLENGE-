@@ -1,5 +1,6 @@
 ## Amerix SIGNUP PAGE
 The following are word for word instructions of Amerix to accomplish the task;
+
 **
 Create a Login page with the following features or menu
 
@@ -22,5 +23,6 @@ Submit button
 
 A photo of The slopes of Mount Kilimanjaro as your page photo.
 **
+If you have any comments feel free to reach out.
 
 
