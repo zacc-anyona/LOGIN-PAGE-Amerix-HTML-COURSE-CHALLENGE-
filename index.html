@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SignUp Page</title>
+		
+		
+		<style>
+		
+			* {
+				box-sizing: border-box;
+			}
+			
+			img {
+				width: 100%;
+				height: 30em;
+			}
+		
+		</style>
+	</head>
+
+	<body>
+		<header>
+		
+			<h1>SignUp Page</h1>
+		
+			<figure>
+				<img src="img/mount-kilimanjaro.jpg" alt="Slope of Mount Kilimanjaro.">
+			</figure>
+		
+		</header>
+		
+		<main>
+		
+			<form action="data.php" method="post">
+		
+			<fieldset>
+				<legend>Personal Details</legend>
+				
+				<label for="f-name" id="name-label">Name:
+					<input type="text" name="f-name" required>
+				</label>
+				<br>
+				<br>
+				
+				<label for="surname" id="surname-label">Surname:
+					<input type="text" name="surname" required>
+				</label>
+				<br>
+				<br>
+				
+				
+				<label for="email" id="email-label">Email:
+					<input type="email" name="email" required>
+				</label>
+				<br>
+				<br>
+				
+				
+				<label for="sex" id="male-label">Male:
+					<input type="radio" name="sex" value="Male" required>
+				</label>
+				<br>
+				<br>
+				
+				<label for="sex" id="female-label">Female:
+					<input type="radio" name="sex" value="Female" required>
+				</label>
+				<br>
+				<br>
+				
+				<label for="passcode" id="pass-label">Password:
+					<input type="password" name="passcode" required>
+				</label>
+				<br>
+				<br>
+				
+				
+			</fieldset>
+			
+			<fieldset>
+				<legend>Other Details</legend>
+				
+				
+				<label>Reason For Signing Up.
+				<br>
+					<label for="reason">
+						<input type="checkbox" name="reason" value required>
+						Learn
+					</label>
+					
+					<label for="reason">
+						<input type="checkbox" name="reason" value required>
+						Entertainment
+					</label>
+					
+					<label for="reason">
+						<input type="checkbox" name="reason" value required>
+						Curious
+					</label>
+				</label>
+				<br>
+				<br>
+				
+				<label>Choose Your Product
+					<br>
+					
+					<select>
+						<option value="">Select Option</option>
+						<option value="HTML Course">HTML Course</option>
+						<option value="CSS Course">CSS Course</option>
+						<option value="JavaScript Course">JavaScript Course</option>
+					</select>
+				</label>
+				<br>
+				<br>
+				
+				
+			</fieldset>
+				
+					<button type="reset"><i>Reset Data</i></button>
+					<br>
+					<br>
+					<button type="submit"><b>SUBMIT</b></button>
+			
+			</form>
+		
+		</main>
+	</body>
+</html>
